@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    background-size: cover;
+    background-image: url(photos/Galaxy.png);
+}
+
+@font-face {
+    font-family: comicsans;
+    src: url(comic-sans.woff); 
+}
+    .sport {
+        color: orangered;
+    }
+    .muziek {
+        color: green;
+    }
+    .fun {
+        color: black;
+    }
+    .name {
+        font-family: comicsans;
+        font-weight: bold;
+        font-size: 80px;
+        color: yellow;
+        text-shadow: 5px 3px 2px #000000;
+    } 
+    .right {
+        text-align: right;
+    }
+h2 {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+p {
+    border: 2px black;
+    border-style: solid;
+    background-color: white;
+    opacity: 1;
+    background-size: auto;
+    display: inline-block;
+    border-radius: 1000px;
+    padding: 15px;
+}
+ul {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(81, 81, 81);
+    display: inline-block;
+    border-radius: 100px;
+    padding: 4px;
+    
+}
+li {
+    float: left;
+} 
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 200px;
+    padding: 8px;
+}
+li a:hover {
+    background-color: yellow;
+    opacity: 0.9;
+    border-radius: 200px;
+    padding: 8px;
+}
+.active {
+    background-color: rgb(255, 183, 0);
+    color: black;
+    border-radius: 200px;
+    padding: 8px;
+}
